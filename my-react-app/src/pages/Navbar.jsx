@@ -2,10 +2,13 @@ import { Link } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { logout } from "../redux/authSlice";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom"; 
+
 
 export default function Navbar() {
   const isLoggedIn = useSelector((state) => state.auth.isLoggedIn);
   const dispatch = useDispatch();
+   const navigate = useNavigate(); 
 
   // 👉 NEW: Mobile menu toggle (no effect on PC)
   const [open, setOpen] = useState(false);
@@ -13,7 +16,11 @@ export default function Navbar() {
   return (
     <nav className="Navbar">
       
-      <div className="box1">
+          <div 
+        className="box1"
+        onClick={() => navigate("/")}    // 👉 Title click = navigate home
+        style={{ cursor: "pointer" }}
+      >
         <h2>MyBlog</h2>
       </div>
 
