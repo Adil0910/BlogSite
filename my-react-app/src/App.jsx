@@ -8,18 +8,18 @@ import "./pages/Blog.css";
 import EditBlog from "./pages/EditBlog";
 import { Provider } from "react-redux";
 import { store } from "./redux/store";
-import Navbar from "./Pages/Navbar";
+import Navbar from "./pages/Navbar";
 import Home from "./pages/Home";
-import About from "./Pages/About";
-import Manage from "./Pages/Manage";
-import AddBlog from "./Pages/AddBlog";
-import SignIn from "./Pages/SignIn";
+import About from "./pages/About";
+import Manage from "./pages/Manage";
+import AddBlog from "./pages/AddBlog";
+import SignIn from "./pages/SignIn";
 import SignUp from "./pages/SignUp";
 import Contact from "./pages/Contact";
 import Blogdetails from "./pages/Blogdetails";
 import { initialBlogs } from "./pages/BlogData";
 
-const Blog = lazy(() => import("./Pages/Blog"));
+const Blog = lazy(() => import("./pages/Blog"));
 
 function App() {
 
