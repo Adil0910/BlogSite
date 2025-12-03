@@ -1,0 +1,83 @@
+/* Fullscreen container */
+.signup-video-container {
+ position: fixed;     
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;       
+  overflow: hidden;
+  z-index: 1;
+}
+
+/* Background Video */
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+
+/* DARK OVERLAY to control opacity */
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: -1;
+}
+
+
+/* Signup form (Full center fix) */
+.signup-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    background: transparent;
+    padding: 25px;
+    border-radius: 15px;
+     backdrop-filter: none; 
+     box-shadow: none; 
+    opacity: 0;
+    transition: 0.5s ease;
+}
+.signup-form.show {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1); /* Animation */
+}
+
+/* Inputs */
+.signup-form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  color: white;
+  background: transparent;
+  font-size: 15px;
+}
+
+/* Button */
+.signup-form button {
+    width: 100%;
+    padding: 12px;
+    background: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+    left: 10px;
+    font-size: 17px;
+}
+
+.signup-form button:hover {
+  background: #0284c7;
+}

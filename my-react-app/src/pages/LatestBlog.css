@@ -1,0 +1,105 @@
+.latest-section {
+  width: 100%;
+  padding: 40px 10px;
+  position: relative;
+}
+
+.heading-latest {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+/* Arrows */
+.arrow-controls {
+  position: absolute;
+  top: 90px;
+  right: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.arrow-btn {
+  width: 34px;
+  height: 35px;
+  border: none;
+  background: white;
+  border-radius: 0px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.heading-latest {
+    font-size: 2rem;
+    width: 18%;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.arrow-btns {
+    width: 34px;
+    height: 35px;
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 0px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.arrow-btn:hover {
+  background: transparent;
+color: black;
+border: 1px solid;  
+}
+.arrow-btns:hover {
+background: transparent;
+color: black;
+border: 1px solid;
+}
+/* Slider Cards */
+.slider-container {
+  display: flex;
+  gap: 25px;
+  overflow: hidden;
+  padding-top: 20px;
+}
+
+.slider-card {
+    width: 320px;
+    height: 404px;
+    background: white;
+    border-radius: 0px;
+    overflow: hidden;
+}
+
+
+
+.slider-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.blog-info {
+  padding: 18px;
+}
+
+.category {
+  color: #878787;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.short-desc {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+
