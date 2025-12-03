@@ -47,7 +47,7 @@ From hidden gems to iconic destinations, experience the world like never before.
         </div>
         <div className="about-text">
           <h2>Our Journey</h2>
-          <p>
+          <p className="paraour">
             Welcome to our travel blog! We share amazing travel experiences,
             tips, and guides to help you explore the world like a pro. From
             hidden gems to popular destinations, our blog covers everything a

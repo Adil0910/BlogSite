@@ -163,8 +163,9 @@ a{
   margin-bottom: 20px;
 }
 
-.main-content p {
-  font-size: 1.1rem;
+
+.paraour{
+   font-size: 1.1rem;
   line-height: 1.6;
 }
 
@@ -518,7 +519,7 @@ h3.headf {
 .fitem {
     padding: 12px;
 }
-p.paraf {
+.paraf {
     font-size: 12px;
     color: whitesmoke;
     padding: 7px 19px;
@@ -743,10 +744,11 @@ button.tool {
     gap: 10px;
     flex-direction: column;
 }
-p.paraf {
+.paraf {
     font-size: 8px;
     color: whitesmoke;
-    padding: 7px 18px;
+    font-size: 13px !important;
+    padding: 11px 7px;
 }
 .title {
     font-size: 15px;
