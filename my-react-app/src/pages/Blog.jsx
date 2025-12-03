@@ -1,13 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom"; 
 
 export default function Blog({ blogs }) {
+  const navigate = useNavigate(); 
+
   return (
     <>
       <h1 style={{ width: "100%", textAlign: "center", marginBlock: "40px" }}>TRAVEL BLOGS</h1>
       <div className="container-blog">
+        
         {blogs.map((p) => (
-          <div key={p.id} className="scard">
+          <div
+            key={p.id}
+            className="scard"
+            onClick={() => navigate(`/blogdetails/${p.id}`)}
+            style={{ cursor: "pointer" }}
+          >
+            
           <img src={p.image} loading="lazy" className="image" />
 
             <div className="titl">
@@ -28,10 +38,14 @@ export default function Blog({ blogs }) {
                 View More
               </Link>
             </div>
+
+
           </div>
+          
         ))}
         
       </div>
+
                 <div className="Footer">
             <div className="boxf">
               <div className="fitem">

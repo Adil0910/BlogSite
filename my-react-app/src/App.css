@@ -1,6 +1,6 @@
 .Navbar {
     width: 100%;
-    background: rgba(0, 3, 186, 0.084);
+    background: rgb(0 1 7);
     padding: 35px 0px;
     display: flex;
     justify-content: space-between;
@@ -890,6 +890,7 @@ p.short-desc {
     margin-block: 6px;
     box-shadow: 2px 2px 13px rgba(128, 128, 128, 0.539);
     width: 95% !important;
+    border-radius: 0% !important;
 }
 .about-image {
     flex: 1 1 172px !important;
@@ -941,6 +942,12 @@ p.short-desc {
     font-weight: 600;
     cursor: pointer;
     transition: 0.3s ease;
+}
+.image {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0px;
 }
 .signup-form {
     position: absolute;

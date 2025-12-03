@@ -1,8 +1,10 @@
 import { initialBlogs } from "./BlogData";
 import LatestBlog from "./LatestBlog.jsx";
 import "./LatestBlog.css";
+import { useNavigate } from "react-router-dom"; 
 
 export default function Home(){
+  const navigate = useNavigate(); 
 
     return(<>
     
@@ -20,7 +22,10 @@ export default function Home(){
          Discover curated travel guides and stories that inspire your next adventure.
 From hidden gems to iconic destinations, experience the world like never before.
         </p>
-        <button>Explore Now</button>
+        <button 
+            onClick={() => navigate(`/blog/`)}
+        
+        >Explore Now</button>
       </div>
 
       {/* Dark overlay layer */}
