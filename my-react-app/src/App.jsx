@@ -13,7 +13,7 @@ import Home from "./pages/Home";
 import About from "./Pages/About";
 import Manage from "./Pages/Manage";
 import AddBlog from "./Pages/AddBlog";
-import SignIn from "./Pages/Signin";
+import SignIn from "./Pages/SignIn";
 import SignUp from "./pages/SignUp";
 import Contact from "./pages/Contact";
 import Blogdetails from "./pages/Blogdetails";
