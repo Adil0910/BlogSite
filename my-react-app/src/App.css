@@ -701,7 +701,7 @@ button.tool {
 
 .hamburger {
     display: block;
-    left: 180px;
+    left: 190px;
     position: relative;
     bottom: 3px;
     color: white;
@@ -777,9 +777,9 @@ button.tool {
     justify-content: center;
 }
 .Navbar {
-    width: 94%;
+    width: 100%;
     background: black;
-    padding: 15px 10px;
+    padding: 15px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
